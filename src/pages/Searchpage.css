@@ -1,0 +1,49 @@
+.searchicon
+{
+    object-fit:contain;
+    height:50px;
+    margin-right:50px;
+}
+.searchheader
+{
+    display:flex;
+    position: sticky;
+    top:0;
+    background-color: white;
+z-index:100;
+align-items: flex-start;
+padding:30px;
+border-bottom: 1px solid lightgray;
+}n
+.searchbody>.search>.searchinput{
+    margin-top: 0;
+    width: 100%;
+
+}
+.searchresult{
+    margin:40px 0px;
+}
+.searchresults{
+    max-width: 650px;
+    margin-top:20px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+}
+.resulttittle{
+    text-decoration:none;
+}
+.resulttittle:hover{
+    text-decoration:underline;
+}
+.resulttittle>h2{
+    font-weight:500;
+}
+.resultsnippt
+{
+    margin-top: 10px;
+}
+.resultimage
+{
+   max-width:25px;
+   max-height: 25px;
+}
